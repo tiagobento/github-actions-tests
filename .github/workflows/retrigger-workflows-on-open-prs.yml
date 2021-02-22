@@ -2,7 +2,7 @@ name: "Re-trigger Workflows on open PRs"
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   retrigger-workflows-on-open-prs:
